@@ -3,10 +3,10 @@
 This repo is for paper review and summary
 
 ## How to read Paper?
-First, read paper title, abstract, figures in order.
-Second, read introduction, conclusion, figures and skip the useless part.
-Skip equation (If you want or can understand)
-Last, read the whole thing except for the parts you don't understand.
+1. Read paper title, abstract, figures in order.
+2. Read introduction, conclusion, figures and skip the useless part.
+3. Skip equation (If you want or can understand)
+4. Last, read the whole thing except for the parts you don't understand.
 
 
 Now anser the following Questions!
