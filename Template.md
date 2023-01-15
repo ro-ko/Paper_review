@@ -1,5 +1,4 @@
-# Deep Residual Learning
-"Papaer title"
+# Paper title
 
 [Paper Link]() \
 [Github Link]()
@@ -7,7 +6,8 @@
 ### Table of Contents
 0. [Abstract](##Abstract)
 0. [Introduction](##Introduction)
-0. [Figure](##Figure)
+0. [Related Work](##RelatedWork)
+0. [Method](##Method)
 0. [Conclusion](##Conclusion)
 0. [Summary](##Summary)
 
@@ -18,7 +18,10 @@
 ## Introduction
 - 
 
-## Figure
+## Related Work
+- 
+
+## Method
 - 
 
 ## Conclusion
