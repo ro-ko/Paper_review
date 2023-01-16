@@ -165,7 +165,7 @@ Plain Networks.
 First evaluate 18-layer and 34-layer plain nets. The 34-layer plain net is in Fig. 3 (middle).
 <center>
 <img
-    src="image/Resnet/table2.png"
+    src="image/Resnet/Table2.png"
     width="50%"
 />
 
@@ -186,7 +186,7 @@ Paper argue that this optimization difficulty is unlikely to be caused by vanish
 
 <center>
 <img
-    src="image/Resnet/table3.png"
+    src="image/Resnet/Table3.png"
     width="50%"
 />
 
@@ -204,7 +204,7 @@ Next evaluate 18-layer and 34- layer residual nets (ResNets).
 
 <center>
 <img
-    src="image/Resnet/table4,5.png"
+    src="image/Resnet/Table4,5.png"
     width="50%"
 />
 
@@ -215,7 +215,7 @@ Table 4,5. ResNet accruacy comparision.
 
 <center>
 <img
-    src="image/Resnet/table3.png"
+    src="image/Resnet/Table3.png"
     width="50%"
 />
 
