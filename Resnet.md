@@ -265,6 +265,6 @@ Exploring over 1000 layers.
 The testing result of this 1202-layer network is worse than that of our 110-layer network, although both have similar training error.\
 It may be occured by overfitting. Since 1202 layers are too deep for small dataset.
 
--> Need string regularzier
+-> Need strong regularzier
 ## Conclusion
 - None
