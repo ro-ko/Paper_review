@@ -6,12 +6,12 @@
 </br>
 
 ### Table of Contents
-0. [Abstract](##Abstract)
-0. [Introduction](##Introduction)
-0. [Related Work](##RelatedWork)
-0. [Method](##Method)
-0. [Conclusion](##Conclusion)
-0. [Summary](##Summary)
+0. [Abstract](#abstract)
+0. [Introduction](#introduction)
+0. [Related Work](#relatedWork)
+0. [Method](#method)
+0. [Conclusion](#conclusion)
+0. [Summary](#summary)
 
 </br>
 
