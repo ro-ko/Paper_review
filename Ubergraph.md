@@ -1,4 +1,5 @@
-# Paper title
+# "Ubergraphs: A Definition of a Recursive Hypergraph Structure"
+
 
 [Paper Link](https://arxiv.org/abs/1704.05547)
 

@@ -1,6 +1,6 @@
 # "Deep Residual Learning for Imaghe Recognition"
 
-[Paper Link](http://arxiv.org/abs/1512.03385) \
+[Paper Link](http://arxiv.org/abs/1512.03385)  
 [Github Link](https://github.com/KaimingHe/deep-residual-networks)
 
 </br>
@@ -102,7 +102,7 @@ It means that identity mappings provide reasonable preconditioning
 
 The shortcut connections in $y = F(x,{W_i}) + x$ introduce neither extra parameter nor computation complexity.
 
-Generally, $y = F(x,{W_i}) + W_{s}x$, ($W_s$ linear projection to match th dimensions)\
+Generally, $y = F(x,{W_i}) + W_{s}x$, ($W_s$ linear projection to match th dimensions)  
 But experiments show the identity mapping is sufficient and economical.
 
 <center>
@@ -114,7 +114,7 @@ But experiments show the identity mapping is sufficient and economical.
 Figure 5. Several residual buliding block by layers depth
 </center>
 
-The form of the residual function $F$ is flexible. \
+The form of the residual function $F$ is flexible.  
 Experiments in this paper involve a function $F$ that has two or three layers (Figure. 5)
 
 </br>
@@ -181,7 +181,7 @@ Table 2. Plain models comparison
 Figure 4. Comparison plain and Resnet acc, val (ImageNet)
 </center>
 
-Look at the left-side of figure 4. \
+Look at the left-side of figure 4.  
 Paper argue that this optimization difficulty is unlikely to be caused by vanishing gradients.
 
 <center>
@@ -193,7 +193,7 @@ Paper argue that this optimization difficulty is unlikely to be caused by vanish
 Table 3. Error rates with several models
 </center>
 
-In fact, the 34-layer plain net is still able to achieve competitive accuracy (Table 3) \
+In fact, the 34-layer plain net is still able to achieve competitive accuracy (Table 3)  
 Paper conjectures that the deep plain nets may have exponentially low convergence rates.
 The reason for such opti- mization difficulties will be studied in the future.
 Otherwise, ResNet-34 is higer accuracy than ResNet-18 unlike plain model.
@@ -224,11 +224,11 @@ Table 3. See A B C options
 
 In Table 3, compare three options:
 
-(A) zero-padding shortcuts are used for increasing dimensions, and all shortcuts are parameter free\
-(B) projection shortcuts are used for increasing dimensions, and other shortcuts are identity\
+(A) zero-padding shortcuts are used for increasing dimensions, and all shortcuts are parameter free  
+(B) projection shortcuts are used for increasing dimensions, and other shortcuts are identity  
 (C) all shortcuts are projections.
 
-Projection shortcuts are not essential for addressing the degradation problem. \
+Projection shortcuts are not essential for addressing the degradation problem.  
 Identity shortcuts are not increasing the complexity of the bottleneck architectures.
 
 ### Deeper Bottlebeck Architectures
@@ -242,7 +242,7 @@ Identity shortcuts are not increasing the complexity of the bottleneck architect
 Figure 5. Several residual buliding block by layers depth
 </center>
 
-50-layer ResNet : 3-layer bottleneck block \
+50-layer ResNet : 3-layer bottleneck block  
 101-layer and 152-layer ResNets : 3-layer bottleneck block
 
 Lower complexity than VGG-19 and higher accuracy.

@@ -1,6 +1,6 @@
 # Paper title
 
-[Paper Link]() \
+[Paper Link]()  
 [Github Link]()
 
 </br>
