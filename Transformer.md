@@ -6,12 +6,13 @@
 </br>
 
 ### Table of Contents
-0. [Abstract](##Abstract)
-0. [Introduction](##Introduction)
-0. [Related Work](##RelatedWork)
-0. [Method](##Method)
-0. [Conclusion](##Conclusion)
-0. [Summary](##Summary)
+0. [Abstract](#abstract)
+0. [Introduction](#introduction)
+0. [Related Work](#relatedWork)
+0. [Method](#method)
+0. [Conclusion](#conclusion)
+0. [Summary](#summary)
+0. [Appendix](#appendix)
 
 </br>
 
@@ -165,3 +166,8 @@ $FFN(x)=max(0,xW_1+b_1)W_2+b_2$
 - Attention mechanism with key, Query, Value
 - Multi-head attention
 - Diversity potentional of Transformer utilization
+
+## Apendix
+0. https://paul-hyun.github.io/transformer-01/
+1. https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding#4d058603-db0f-4d62-bb49-d85ea6dcbfc6
+2. https://noru-jumping-in-the-mountains.tistory.com/9
