@@ -43,7 +43,7 @@ Rather than use sampling, the main idea behind variational inference is to use o
 
 $q^*(z) = \underset{q(z)\in Q}{argmin} KL(q(z)||p(z|x))$  
 
-One of the key ideas behind variational inference is to choose Q to be flexible enough to capture a density close to p(z | x), but simple enough for effi- cient optimization.  
+One of the key ideas behind variational inference is to choose Q to be flexible enough to capture a density close to p(z | x), but simple enough for efficient optimization.  
 
 When should a statistician use MCMC and when should she use variational inference?
 
@@ -73,9 +73,9 @@ The goal of variational inference is to approximate a conditional density of lat
 ### Bayesian mixture of Gaussians  
 Consider  a Bayesian mixture of unit-variance univariate Gaussians with K mixture components.  
 
-$\mu_k~N(0,\sigma^2),k=1,\cdots,K$  
-$c_i~catgorical(1/K,\cdots,1/K),i=1,\cdots,n$  
-$x_i|c_i,\mu~N(c_i^T\mu,1),i=1,\cdots,n$  
+$\mu_k ~ N(0,\sigma^2),k=1,\cdots,K$  
+$c_i ~ catgorical(1/K,\cdots,1/K),i=1,\cdots,n$  
+$x_i | c_i ,\mu~N(c_i^T\mu,1),i=1,\cdots,n$  
 
 $p(x)=\sum_c{p(c)}\int p(\mu)\prod_{j=1}^n p(x_i|c_i,\mu)d\mu$
 
@@ -99,7 +99,7 @@ But VI do not.
 the latent variables are mutually independent and each governed by a distinct factor in the variational density.  
 $q(z)=\prod_{j=1}^m q_j(z_j)$  
 
- The data x does not appear in Equation. Instead, it is the ELBO, and the corresponding KL mini- mization problem. Structured and mixture-based variational families come with a more difficult-to-solve variational optimization problem.  
+ The data x does not appear in Equation. Instead, it is the ELBO, and the corresponding KL minimization problem. Structured and mixture-based variational families come with a more difficult-to-solve variational optimization problem.  
 
 <center>
 <img
@@ -110,7 +110,7 @@ $q(z)=\prod_{j=1}^m q_j(z_j)$
 
  ### coordinate ascent variational inference (CAVI)  
 
- CAVI iteratively opti- mizes each factor of the mean-field variational density, while holding the others fixed.  
+ CAVI iteratively optimizes each factor of the mean-field variational density, while holding the others fixed.  
 
  $q_j^*(z_j) \propto exp\{E_{-j}[log p(z_j|z_{-j},x)]\}$
  $q_j^*(z_j) \propto exp\{E_{-j}[log p(z_j,z_{-j},x)]\}$ by mean-field property  
@@ -137,7 +137,7 @@ Why?
 
 Assess convergence  
 - Monitoring the ELBO in CAVI is simple; we typically declare convergence once the change in ELBO falls below some small threshold.  
-- Suggest computing the average log predictive of a small held- out dataset.  
+- Suggest computing the average log predictive of a small held out dataset.  
 
 Numerical stablity  
 - Probabilities are constrained to live within [0, 1]. 
@@ -179,7 +179,7 @@ Stochastic optimization algorithms follow noisy but cheap-to-compute gradients t
 ## Related Work
 - Posterior estimates of the topics and topic proportions can be used to summarize, visualize, explore, and form predictions about the documents.
 - One motivation for topic modeling is to get a handle on massive collections of documents.
-- With SVI, topic models scale up to millions of docu- ments.
+- With SVI, topic models scale up to millions of documents.
 
 <center>
 <img
