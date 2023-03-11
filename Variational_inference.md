@@ -97,7 +97,7 @@ But VI do not.
 ### mean-field variational family  
 
 the latent variables are mutually independent and each governed by a distinct factor in the variational density.  
-$q(z)=\prod_{j=1}^m q_j(z_j)$  
+$q(z)= \prod_{j=1}^m q_j(z_j)$  
 
  The data x does not appear in Equation. Instead, it is the ELBO, and the corresponding KL minimization problem. Structured and mixture-based variational families come with a more difficult-to-solve variational optimization problem.  
 
@@ -112,7 +112,7 @@ $q(z)=\prod_{j=1}^m q_j(z_j)$
 
  CAVI iteratively optimizes each factor of the mean-field variational density, while holding the others fixed.  
 
- $q_j^*(z_j) \propto exp\{E_{-j}[log p(z_j|z_{-j},x)]\}$
+ $q_j^*(z_j) \propto exp\{E_{-j}[log p(z_j|z_{-j},x)]\}$  
  $q_j^*(z_j) \propto exp\{E_{-j}[log p(z_j,z_{-j},x)]\}$ by mean-field property  
 
 - CAVI can also be seen as a “message passing” algorithm.  
